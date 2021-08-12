@@ -1,0 +1,46 @@
+*{
+    margin:10px;
+    padding:10px;
+}
+
+h1{
+    text-align: center;
+}
+
+/* this is div one started  */
+
+.Main{
+    background-color:blueviolet;
+    display: flex;
+  }
+  
+  .Main > .Child {
+    background-color:black;
+    margin:5px;
+    padding:5px;
+    height: 300px;
+    width: 33%;
+    font-size: 30px;
+  }
+  .Main > .Child img{
+      height: 300px;
+      width:100%;
+      margin:0px;
+      padding:0px;
+  }
+
+/* this is second div started */
+  .Secdiv{
+    background-color:black;
+    display: flex;
+  }
+  
+  .Secdiv > .Childs {
+    background-color:blanchedalmond;
+    margin:5px;
+    padding:5px;
+    height: 300px;
+    width: 33%;
+    font-size: 30px;
+  }
+  
